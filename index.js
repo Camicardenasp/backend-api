@@ -14,7 +14,7 @@ app.use(cors());
 
 mongoose.set('strictQuery', false);
 
-mongoose.connect("mongodb+srv://cami:940122-03084@miapi.bs3v4go.mongodb.net/users?retryWrites=true&w=majority", connectionOptions)
+mongoose.connect("mongodb+srv://cami:19940122@miapi.bs3v4go.mongodb.net/users?retryWrites=true&w=majority", connectionOptions)
     .then(() => console.log("Connected successfully"))
     .catch((err) => console.error(err));
 
