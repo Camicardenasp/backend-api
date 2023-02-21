@@ -34,11 +34,10 @@ A users list app made with Node, Express and MongoDB.
 ## Note
 This app is aimed to be for testing only and is NOT meant to be deployed to production. It lacks request validation, security checks, error handlers and a lot more.
 
-# MERN Basics
+# Basics
 
-It comprises of `MongoDB`, `Express`, `React` and `Node`. <br><br>
-Of which `React` is used for **front-end development** <br>
-And `MongoDB`, `Express`, `Node` for **back-end development**
+It comprises of `MongoDB`, `Express`, and `Node`. <br><br>
+`MongoDB`, `Express`, `Node` for **back-end development**
 
 ## Getting Started
 ### Follow these steps while starting the project
