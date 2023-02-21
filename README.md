@@ -19,7 +19,7 @@ To use Users-API, simply follow these steps:
 
     + Go to the UsersAPI URL
     + See the previous users registered
-    + Create a new register by entering a title, year, time, language, release date and country
+    + Create a new register by entering a name, lastname, email, password, and if it is_admin.
 
 # INSTALATION
 
@@ -27,7 +27,7 @@ To use Users-API, simply follow these steps:
 A users list app made with Node, Express and MongoDB.
 
 ## Installation
-1. `cd videoclub-back`
+1. `cd API`
 2. `npm install`
 3. `npm run dev` or `nodemon index`
 
@@ -41,12 +41,6 @@ It comprises of `MongoDB`, `Express`, and `Node`. <br><br>
 
 ## Getting Started
 ### Follow these steps while starting the project
-
-###### 1.  Create two Folders
-
-    frontend (This contains all the back-end part)
-  
-    backend (This contains all the front-end part)
   
 ###### 2.  Getting MongoDB Connection
 
