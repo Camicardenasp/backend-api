@@ -76,6 +76,7 @@ And `MongoDB`, `Express`, `Node` for **back-end development**
 
 Backend Movies DataBase
 
-To retrieve users information from backend go to the next link: https://videoclub-back.vercel.app/films
+To retrieve users information from backend go to the next link: https://backend-api-one.vercel.app/
+
 
 
