@@ -1,5 +1,8 @@
-# DESCRIPTION UsersAPI
+# DESCRIPTION Users-API
+### Screenshots
+![image](https://github.com/Camicardenasp/backend-api/blob/main/readme/screenshot.png)
 
+To retrieve users information from backend go to the next link: https://backend-api-one.vercel.app/
 
 Author: Camilo Cárdenas
 
@@ -12,7 +15,7 @@ Features
    
 # Usage
 
-To use UsersAPI, simply follow these steps:
+To use Users-API, simply follow these steps:
 
     + Go to the UsersAPI URL
     + See the previous users registered
@@ -72,11 +75,3 @@ And `MongoDB`, `Express`, `Node` for **back-end development**
     5. User postman or thunderclient a visual studio extension for verifying connection right from visual studio
   
   
-### Screenshots
-
-Backend Movies DataBase
-
-To retrieve users information from backend go to the next link: https://backend-api-one.vercel.app/
-
-
-
