@@ -1,5 +1,6 @@
 # Users-API
 ### Screenshots
+
 ![image](https://github.com/Camicardenasp/backend-api/blob/main/readme/screenshot.png)
 
 To retrieve users information from backend go to the next link: https://backend-api-one.vercel.app/users
