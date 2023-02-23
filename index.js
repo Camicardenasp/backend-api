@@ -6,7 +6,7 @@ require("dotenv").config();
 const app = express();
 const PORT = process.env.PORT|| 3030;
 
-const userRoutes = require("./routes/userRoutes");
+const userRoutes = require("./src/v1/routes/userRoutes");
 const connectionOptions = { useUnifiedTopology: true, useNewUrlParser: true };
 
 app.use(express.json());
