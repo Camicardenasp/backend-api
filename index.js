@@ -3,8 +3,8 @@ const mongoose = require("mongoose");
 const cors = require("cors");
 require("dotenv").config();
 
-const PUERTO = 3030;
 const app = express();
+const PORT = process.env.PORT|| 3030;
 
 const userRoutes = require("./routes/userRoutes");
 const connectionOptions = { useUnifiedTopology: true, useNewUrlParser: true };
@@ -20,6 +20,10 @@ mongoose.connect("mongodb+srv://cami:19940122@miapi.bs3v4go.mongodb.net/users?re
 
 app.use("/users", userRoutes);
 
-app.listen(process.env.PORT||PUERTO, () => {
-    console.log("The server is listening on port " + PUERTO);
+app.listen(PORT, () => {
+    console.log(" 🚀 The server is listening on port " + PORT);
+});
+
+app.get("/", (req, res) => {
+    res.send("<h1>Bienvenido! Este es el servidor de la API Users 🚀</h1>");
 });
