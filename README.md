@@ -7,7 +7,6 @@ A users list app made with Node, Express and MongoDB.
 ![image](screenshot.png)
 
 To retrieve users information from backend go to the next link:  
-<a href="https://backend-api-one.vercel.app/api/v1/users" target="_blank">https://backend-api-one.vercel.app/api/v1/users</a>
 
 Author: Camilo Cárdenas
 
