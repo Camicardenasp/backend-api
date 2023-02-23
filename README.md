@@ -71,3 +71,11 @@ Open Connect and click on - Connect your Application
 Copy and Add your connection string into your application code
 
   ![image](https://user-images.githubusercontent.com/76637730/174516230-232c6be6-d00b-4067-b15e-1f9cf9c57784.png)
+
+## Documentation
+
+To be able of make a proper documantation, we use JSDoc wich is library for make documentation easier with comments.
+
++ npm i jsdoc
+
+After the instalation we create an archive named: jsdoc.json to configurate the pluggin
