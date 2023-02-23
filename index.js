@@ -6,7 +6,7 @@ require("dotenv").config();
 const app = express();
 const PORT = process.env.PORT|| 3030;
 
-const userRoutes = require("./src/v1/routes/userRoutes");
+const v1UserRouter = require("./src/v1/routes/userRoutes");
 const connectionOptions = { useUnifiedTopology: true, useNewUrlParser: true };
 
 app.use(express.json());
@@ -18,7 +18,7 @@ mongoose.connect("mongodb+srv://cami:19940122@miapi.bs3v4go.mongodb.net/users?re
     .then(() => console.log("Connected successfully"))
     .catch((err) => console.error(err));
 
-app.use("/users", userRoutes);
+app.use("/api/v1/users", v1UserRouter);
 
 app.listen(PORT, () => {
     console.log(" 🚀 The server is listening on port " + PORT);
