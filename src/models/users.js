@@ -2,12 +2,10 @@ const mongoose = require("mongoose");
 
 const UserSchema = new mongoose.Schema({
     name: String,
-    lastName: String,
+    lastname: String,
     email: String,
     password: String,
-    is_active: Boolean,
-    is_admin: Boolean,
-    created_at: Date,
+    is_admin: Boolean
 });
 
 module.exports = mongoose.model("users", UserSchema);

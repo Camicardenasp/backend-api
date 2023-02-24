@@ -25,5 +25,5 @@ app.listen(PORT, () => {
 });
 
 app.get("/", (req, res) => {
-    res.send("<h1>Bienvenido! Este es el servidor de la API Users 🚀</h1>");
+    res.send(`<h1> ¡Bienvenido! 😃 Este es el servidor de la API Users 🚀</h1>`);
 });
