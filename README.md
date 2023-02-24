@@ -1,6 +1,6 @@
-# UsersAPI
+# UsersAPI from Cohort 7 at Educamás-GOYN
 
-A users list app made with Node, Express and MongoDB.
+A users list from Cohort 7 at Educamás-GOYN app made with Node, Express and MongoDB.
 
 ## Screenshots
 
@@ -10,7 +10,7 @@ To retrieve users information from backend go to the next link:
 
 Author: Camilo Cárdenas
 
-A simple and easy-to-use users API that helps you organize users and keep track of them.
+A simple and easy-to-use users API that helps you organize users from Cohort 7 and keep track of them.
 
 Features
 
@@ -19,9 +19,9 @@ Features
 
 ## Usage
 
-To use Users-API, simply follow these steps:
+To use Users-API from Cohort 7 at Educamás-GOYN, simply follow these steps:
 
-+ Go to the UsersAPI URL
++ Go to the UsersAPI from Cohort 7 at Educamás-GOYN URL
 + See the previous users registered
 + Create a new register by entering a name, lastname, email, password, and if it is_admin.
 
