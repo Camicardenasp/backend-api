@@ -1,10 +1,13 @@
 const userService = require("../services/userService");
+const User = require("../models/users");
 
 const getAllUsers = (req, res) => {
-    const { lastname } = req.query;
     try {
-        const allUser = userService.getAllUsers({ lastname });
-        res.send({ status: "OK", data: allUser });
+        User.find((err, result) => {
+            if(err) throw new Error(err);
+            // res.json(result);
+            res.json({ status: "OK", data: result });
+        });
     } catch (error) {
         res
         .status(error?.status || 500)
